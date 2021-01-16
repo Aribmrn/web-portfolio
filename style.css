@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 h1{
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
@@ -17,4 +19,20 @@ p{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    border: 2px dotted lightcoral;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(13, 143, 143), lightgreen );
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
 }
