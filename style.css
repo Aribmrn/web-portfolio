@@ -5,28 +5,30 @@ h1{
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
 }
-.name-highlight{
+.tomato-highlight{
     color: chocolate;
 }
 p{
     font-style: initial;
 }
 .half-width{
-    width: 40%;
+    width: 38%;
     float: left;
     margin: 4%;
     padding-left: 2%;
+    
 }
 .half-width img{
     width: 100%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
-    border: 2px dotted lightcoral;
+    
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -35,4 +37,44 @@ section{
     border-radius: 8px;
     color: white;
     font-weight: 800;
+}
+.second-name-highlight{
+    color: darkcyan;
+}
+h2{
+    font-size: 45px;
+    
+}
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.single-experience{
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    height: 70%;
+    background-color: whitesmoke;
+    
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+        
+}
+#full-stack{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, lightgreen, rgb(102, 243, 236) );
+    border-image-slice: 1;
+    
+}
+#baby-dev{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, rgb(33, 88, 207), lightblue) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
