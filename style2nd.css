@@ -77,59 +77,29 @@ h2{
     background-position: right;
     
 }
-.box-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.single-box{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    text-align: center;
-    margin: 15px;
-    padding: 15px;
-    transition: 2s;
+.single-experience{
     box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    height: 70%;
+    background-color: whitesmoke;
+    
 }
-.img-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    height: 160px;
-    border: 5px outset;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    padding: 20px;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+        
 }
-.single-box:nth-child(1) .img-area{
-    background-image: url(images2/img1.jpeg);
+#full-stack{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, lightgreen, rgb(102, 243, 236) );
+    border-image-slice: 1;
+    
 }
-.single-box:nth-child(2) .img-area{
-    background-image: url(images2/img2.jpg);
-}
-.single-box:nth-child(3) .img-area{
-    background-image: url(images2/img3.png);
-}
-.header-text{
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 45px;
-}
-.single-box:hover{
-    background: lightslategray;
-    color: lavenderblush;
+#baby-dev{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, rgb(33, 88, 207), lightblue) ;
+    border-image-slice: 1;
 }
 footer p{
     text-align: center;
