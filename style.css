@@ -134,3 +134,22 @@ h2{
 footer p{
     text-align: center;
 }
+.inside-footer{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.social-link{
+    display: flex;
+}
+.social-link ul{
+    display: flex;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: tomato;
+}
