@@ -209,6 +209,6 @@ footer h3{
     border-image-slice: 1;
 }
 .single-experience:hover{
-    background: lightslategrey;
-    color: lavenderblush;
+    background: darkgrey;
+    color: whitesmoke;
 }
