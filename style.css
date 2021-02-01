@@ -36,7 +36,7 @@ h1{
     font-family: 'Frank Ruhl Libre', serif;
 }
 .tomato-highlight{
-    color: chocolate;
+    color: PaleVioletRed;
 }
 p{
     font-style: initial;
@@ -58,7 +58,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(13, 143, 143), lightgreen );
+    background-image: linear-gradient(45deg, MediumAquaMarine, lightgreen );
     padding: 10px 20px;
     border-radius: 8px;
     color: white;
@@ -183,4 +183,32 @@ footer h3{
     color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
     
+}
+.single-experience{
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    height: 70%;
+    background-color: whitesmoke;
+    
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+        
+}
+#full-stack{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, darkblue, rgb(102, 243, 236) );
+    border-image-slice: 1;
+    
+}
+#baby-dev{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, darkblue, lightblue) ;
+    border-image-slice: 1;
+}
+.single-experience:hover{
+    background: lightslategrey;
+    color: lavenderblush;
 }
